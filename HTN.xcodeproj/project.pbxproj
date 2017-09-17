@@ -7,21 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25C246A41B2EB50270524798 /* Pods_HTN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB57F14DAF154FC669D6956 /* Pods_HTN.framework */; };
+		2B1A19FF1F6DC2EE007CAE24 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A19F51F6DC2EE007CAE24 /* OpenSans-Bold.ttf */; };
+		2B1A1A001F6DC2EE007CAE24 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A19F61F6DC2EE007CAE24 /* OpenSans-BoldItalic.ttf */; };
+		2B1A1A011F6DC2EE007CAE24 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A19F71F6DC2EE007CAE24 /* OpenSans-ExtraBold.ttf */; };
+		2B1A1A021F6DC2EE007CAE24 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A19F81F6DC2EE007CAE24 /* OpenSans-ExtraBoldItalic.ttf */; };
+		2B1A1A031F6DC2EE007CAE24 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A19F91F6DC2EE007CAE24 /* OpenSans-Italic.ttf */; };
+		2B1A1A041F6DC2EE007CAE24 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A19FA1F6DC2EE007CAE24 /* OpenSans-Light.ttf */; };
+		2B1A1A051F6DC2EE007CAE24 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A19FB1F6DC2EE007CAE24 /* OpenSans-LightItalic.ttf */; };
+		2B1A1A061F6DC2EE007CAE24 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A19FC1F6DC2EE007CAE24 /* OpenSans-Regular.ttf */; };
+		2B1A1A071F6DC2EE007CAE24 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A19FD1F6DC2EE007CAE24 /* OpenSans-Semibold.ttf */; };
+		2B1A1A081F6DC2EE007CAE24 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A19FE1F6DC2EE007CAE24 /* OpenSans-SemiboldItalic.ttf */; };
+		2B1A1A0A1F6DD225007CAE24 /* PagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A1A091F6DD225007CAE24 /* PagerViewController.swift */; };
+		2B1A1A0C1F6DD411007CAE24 /* PagerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A1A0B1F6DD411007CAE24 /* PagerViewCell.swift */; };
+		2BE5D74E1F6CCD39000065FF /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE5D74D1F6CCD39000065FF /* CameraViewController.swift */; };
+		2BE5D7501F6D4E6E000065FF /* KeywordsTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE5D74F1F6D4E6E000065FF /* KeywordsTableController.swift */; };
+		2BE5D7521F6D4F0F000065FF /* KeywordsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE5D7511F6D4F0F000065FF /* KeywordsCell.swift */; };
 		2BF4FF501F6CCC7A000E185C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF4FF4F1F6CCC7A000E185C /* AppDelegate.swift */; };
-		2BF4FF521F6CCC7A000E185C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF4FF511F6CCC7A000E185C /* ViewController.swift */; };
 		2BF4FF551F6CCC7A000E185C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BF4FF531F6CCC7A000E185C /* Main.storyboard */; };
 		2BF4FF571F6CCC7A000E185C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BF4FF561F6CCC7A000E185C /* Assets.xcassets */; };
 		2BF4FF5A1F6CCC7A000E185C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BF4FF581F6CCC7A000E185C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B1A19F51F6DC2EE007CAE24 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		2B1A19F61F6DC2EE007CAE24 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		2B1A19F71F6DC2EE007CAE24 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		2B1A19F81F6DC2EE007CAE24 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		2B1A19F91F6DC2EE007CAE24 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		2B1A19FA1F6DC2EE007CAE24 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		2B1A19FB1F6DC2EE007CAE24 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		2B1A19FC1F6DC2EE007CAE24 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		2B1A19FD1F6DC2EE007CAE24 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		2B1A19FE1F6DC2EE007CAE24 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		2B1A1A091F6DD225007CAE24 /* PagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagerViewController.swift; sourceTree = "<group>"; };
+		2B1A1A0B1F6DD411007CAE24 /* PagerViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagerViewCell.swift; sourceTree = "<group>"; };
+		2BE5D74D1F6CCD39000065FF /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		2BE5D74F1F6D4E6E000065FF /* KeywordsTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeywordsTableController.swift; sourceTree = "<group>"; };
+		2BE5D7511F6D4F0F000065FF /* KeywordsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeywordsCell.swift; sourceTree = "<group>"; };
 		2BF4FF4C1F6CCC7A000E185C /* HTN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BF4FF4F1F6CCC7A000E185C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2BF4FF511F6CCC7A000E185C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2BF4FF541F6CCC7A000E185C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2BF4FF561F6CCC7A000E185C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BF4FF591F6CCC7A000E185C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BF4FF5B1F6CCC7A000E185C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DB57F14DAF154FC669D6956 /* Pods_HTN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4BD4C1DF8D59EB71FC814EE /* Pods-HTN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HTN/Pods-HTN.debug.xcconfig"; sourceTree = "<group>"; };
+		E520DCD952F8B96C2F442C08 /* Pods-HTN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTN.release.xcconfig"; path = "Pods/Target Support Files/Pods-HTN/Pods-HTN.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +61,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25C246A41B2EB50270524798 /* Pods_HTN.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05C289F6B72F783100A1DBE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DB57F14DAF154FC669D6956 /* Pods_HTN.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B1A19F41F6DC2EE007CAE24 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2B1A19F51F6DC2EE007CAE24 /* OpenSans-Bold.ttf */,
+				2B1A19F61F6DC2EE007CAE24 /* OpenSans-BoldItalic.ttf */,
+				2B1A19F71F6DC2EE007CAE24 /* OpenSans-ExtraBold.ttf */,
+				2B1A19F81F6DC2EE007CAE24 /* OpenSans-ExtraBoldItalic.ttf */,
+				2B1A19F91F6DC2EE007CAE24 /* OpenSans-Italic.ttf */,
+				2B1A19FA1F6DC2EE007CAE24 /* OpenSans-Light.ttf */,
+				2B1A19FB1F6DC2EE007CAE24 /* OpenSans-LightItalic.ttf */,
+				2B1A19FC1F6DC2EE007CAE24 /* OpenSans-Regular.ttf */,
+				2B1A19FD1F6DC2EE007CAE24 /* OpenSans-Semibold.ttf */,
+				2B1A19FE1F6DC2EE007CAE24 /* OpenSans-SemiboldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		2BF4FF431F6CCC7A000E185C = {
 			isa = PBXGroup;
 			children = (
+				2B1A19F41F6DC2EE007CAE24 /* Fonts */,
 				2BF4FF4E1F6CCC7A000E185C /* HTN */,
 				2BF4FF4D1F6CCC7A000E185C /* Products */,
+				4F0113B60A23C6102B7695C6 /* Pods */,
+				05C289F6B72F783100A1DBE7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +116,26 @@
 			isa = PBXGroup;
 			children = (
 				2BF4FF4F1F6CCC7A000E185C /* AppDelegate.swift */,
-				2BF4FF511F6CCC7A000E185C /* ViewController.swift */,
+				2BE5D74D1F6CCD39000065FF /* CameraViewController.swift */,
 				2BF4FF531F6CCC7A000E185C /* Main.storyboard */,
 				2BF4FF561F6CCC7A000E185C /* Assets.xcassets */,
 				2BF4FF581F6CCC7A000E185C /* LaunchScreen.storyboard */,
 				2BF4FF5B1F6CCC7A000E185C /* Info.plist */,
+				2BE5D74F1F6D4E6E000065FF /* KeywordsTableController.swift */,
+				2BE5D7511F6D4F0F000065FF /* KeywordsCell.swift */,
+				2B1A1A091F6DD225007CAE24 /* PagerViewController.swift */,
+				2B1A1A0B1F6DD411007CAE24 /* PagerViewCell.swift */,
 			);
 			path = HTN;
+			sourceTree = "<group>";
+		};
+		4F0113B60A23C6102B7695C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4BD4C1DF8D59EB71FC814EE /* Pods-HTN.debug.xcconfig */,
+				E520DCD952F8B96C2F442C08 /* Pods-HTN.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BF4FF5E1F6CCC7A000E185C /* Build configuration list for PBXNativeTarget "HTN" */;
 			buildPhases = (
+				FD6BAD100BF1803B04BBCEBB /* [CP] Check Pods Manifest.lock */,
 				2BF4FF481F6CCC7A000E185C /* Sources */,
 				2BF4FF491F6CCC7A000E185C /* Frameworks */,
 				2BF4FF4A1F6CCC7A000E185C /* Resources */,
+				597C8CFEA4925A59326F3310 /* [CP] Embed Pods Frameworks */,
+				4777AA9AC48FCA048CA6DC61 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +173,7 @@
 				TargetAttributes = {
 					2BF4FF4B1F6CCC7A000E185C = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = CT4EACZF7N;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,21 +201,83 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B1A1A071F6DC2EE007CAE24 /* OpenSans-Semibold.ttf in Resources */,
+				2B1A1A081F6DC2EE007CAE24 /* OpenSans-SemiboldItalic.ttf in Resources */,
 				2BF4FF5A1F6CCC7A000E185C /* LaunchScreen.storyboard in Resources */,
+				2B1A1A061F6DC2EE007CAE24 /* OpenSans-Regular.ttf in Resources */,
+				2B1A1A031F6DC2EE007CAE24 /* OpenSans-Italic.ttf in Resources */,
+				2B1A1A021F6DC2EE007CAE24 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
 				2BF4FF571F6CCC7A000E185C /* Assets.xcassets in Resources */,
+				2B1A1A051F6DC2EE007CAE24 /* OpenSans-LightItalic.ttf in Resources */,
+				2B1A19FF1F6DC2EE007CAE24 /* OpenSans-Bold.ttf in Resources */,
 				2BF4FF551F6CCC7A000E185C /* Main.storyboard in Resources */,
+				2B1A1A041F6DC2EE007CAE24 /* OpenSans-Light.ttf in Resources */,
+				2B1A1A001F6DC2EE007CAE24 /* OpenSans-BoldItalic.ttf in Resources */,
+				2B1A1A011F6DC2EE007CAE24 /* OpenSans-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4777AA9AC48FCA048CA6DC61 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HTN/Pods-HTN-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		597C8CFEA4925A59326F3310 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HTN/Pods-HTN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD6BAD100BF1803B04BBCEBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2BF4FF481F6CCC7A000E185C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BF4FF521F6CCC7A000E185C /* ViewController.swift in Sources */,
+				2B1A1A0A1F6DD225007CAE24 /* PagerViewController.swift in Sources */,
+				2BE5D7501F6D4E6E000065FF /* KeywordsTableController.swift in Sources */,
+				2B1A1A0C1F6DD411007CAE24 /* PagerViewCell.swift in Sources */,
+				2BE5D7521F6D4F0F000065FF /* KeywordsCell.swift in Sources */,
 				2BF4FF501F6CCC7A000E185C /* AppDelegate.swift in Sources */,
+				2BE5D74E1F6CCD39000065FF /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,25 +398,31 @@
 		};
 		2BF4FF5F1F6CCC7A000E185C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4BD4C1DF8D59EB71FC814EE /* Pods-HTN.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CT4EACZF7N;
 				INFOPLIST_FILE = HTN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ziyincody.HTN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		2BF4FF601F6CCC7A000E185C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E520DCD952F8B96C2F442C08 /* Pods-HTN.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CT4EACZF7N;
 				INFOPLIST_FILE = HTN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ziyincody.HTN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -299,6 +445,7 @@
 				2BF4FF601F6CCC7A000E185C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
